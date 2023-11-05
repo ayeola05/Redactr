@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+form > div {
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+button {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
